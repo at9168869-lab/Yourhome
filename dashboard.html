@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="checkLogin()">
+
+<div class="sidebar">
+
+<h2>SMM PANEL</h2>
+
+<a href="dashboard.html">Dashboard</a>
+
+<h4>Orders</h4>
+<a href="orders_new.html">New Order</a>
+<a href="orders_mass.html">Mass Order</a>
+<a href="orders_history.html">Orders</a>
+
+<h4>Services</h4>
+<a href="services.html">Services</a>
+
+<h4>Billing</h4>
+<a href="billing_addfund.html">Add Fund</a>
+<a href="billing_transactions.html">Transactions</a>
+
+<h4>Support</h4>
+<a href="support_tickets.html">Tickets</a>
+
+<h4>Account</h4>
+<a href="account_profile.html">Profile</a>
+<a href="account_security.html">Security</a>
+<a href="account_api.html">API</a>
+
+</div>
+
+<div class="main">
+
+<div class="topbar">
+
+<input placeholder="Search services">
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+Balance
+<h3>$120</h3>
+</div>
+
+<div class="card">
+Orders
+<h3>2300</h3>
+</div>
+
+<div class="card">
+Pending
+<h3>12</h3>
+</div>
+
+<div class="card">
+Spent
+<h3>$900</h3>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
