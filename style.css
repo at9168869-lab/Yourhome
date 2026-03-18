@@ -3,111 +3,62 @@ margin:0;
 font-family:Arial;
 background:#0f172a;
 color:white;
-display:flex;
 }
-
-/* LOGIN */
-
-.login-body{
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-}
-
-.login-box{
-background:#1e293b;
-padding:30px;
-border-radius:10px;
-width:250px;
-text-align:center;
-}
-
-.login-box input{
-width:100%;
-padding:10px;
-margin:8px 0;
-border:none;
-border-radius:5px;
-}
-
-.login-box button{
-width:100%;
-padding:10px;
-background:#3b82f6;
-border:none;
-color:white;
-}
-
-/* SIDEBAR */
 
 .sidebar{
-width:200px;
+width:250px;
 background:#020617;
 height:100vh;
+position:fixed;
 padding:20px;
 }
 
 .sidebar a{
 display:block;
 color:white;
-margin:10px 0;
+padding:10px;
 text-decoration:none;
 }
 
-/* MAIN */
-
 .main{
-flex:1;
-padding:20px;
+margin-left:260px;
+padding:30px;
 }
-
-.topbar{
-display:flex;
-justify-content:space-between;
-margin-bottom:20px;
-}
-
-/* CARDS */
 
 .cards{
 display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:15px;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
 }
 
 .card{
 background:#1e293b;
 padding:20px;
-border-radius:8px;
+border-radius:10px;
 }
-
-/* TABLE */
 
 table{
 width:100%;
 border-collapse:collapse;
 }
 
-td,th{
-padding:10px;
-border-bottom:1px solid #333;
+th,td{
+padding:12px;
+border-bottom:1px solid #334155;
 }
-
-/* FORM */
 
 input,select,textarea{
 width:100%;
 padding:10px;
 margin:10px 0;
 border:none;
-border-radius:5px;
+border-radius:6px;
 }
 
 button{
-padding:10px;
+padding:10px 20px;
 background:#3b82f6;
 border:none;
 color:white;
-border-radius:5px;
+border-radius:6px;
 }
