@@ -6,12 +6,11 @@ let pass=document.getElementById("password").value
 if(user==="admin" && pass==="123456"){
 
 localStorage.setItem("login","true")
-
-window.location.href="home.html"
+window.location="dashboard.html"
 
 }else{
 
-document.getElementById("error").innerText="Login gagal"
+alert("Login gagal")
 
 }
 
@@ -21,7 +20,7 @@ function checkLogin(){
 
 if(localStorage.getItem("login")!=="true"){
 
-window.location.href="index.html"
+window.location="index.html"
 
 }
 
@@ -30,7 +29,6 @@ window.location.href="index.html"
 function logout(){
 
 localStorage.removeItem("login")
-
-window.location.href="index.html"
+window.location="index.html"
 
 }
